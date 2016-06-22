@@ -16,4 +16,4 @@ Use a prebaked lookup table [like in emojicam](https://github.com/AlexWiles/emoj
 
 ## How to layout the emoji?
 
-The Emoji should be tightly packed, laid on top of each other, and skewed angle to give it an organic vibe. To get an organic layout (rather than a grid layout) [Poisson-Disc sampling is cool](http://bl.ocks.org/mbostock/dbb02448b0f93e4c82c3), here's a [great example](http://bl.ocks.org/mbostock/19168c663618b7f07158).
+Display emojis as a system font in-browser. www.caniemoji.com for compatability. Using prebaked lookup table, create another mapping from the prebaked lookup table to a table of emoji characters as stored in the system font. This will dynamically display raw text as opposed to png data.
